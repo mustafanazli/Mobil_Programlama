@@ -12,5 +12,9 @@
   
   [RenkliSureVideo.webm](https://github.com/user-attachments/assets/5b5dd1ec-d738-43f9-bcf9-664cb800bf8b)
 
+  <br><br> <h3> Şehir Bilgilendirme Uygulaması</h3>
+
+https://github.com/user-attachments/assets/c6f6792b-f538-4d08-b2a4-a0a1c14e8b3e
+
 
 </div>
