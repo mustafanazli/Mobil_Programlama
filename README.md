@@ -14,7 +14,6 @@
 
   <br><br> <h3> Şehir Bilgilendirme Uygulaması</h3>
 
-https://github.com/user-attachments/assets/c6f6792b-f538-4d08-b2a4-a0a1c14e8b3e
-
+  https://github.com/user-attachments/assets/ea6c7fd9-dbb1-4c06-8f3b-34e22ba085c0
 
 </div>
