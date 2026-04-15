@@ -16,4 +16,8 @@
 
   https://github.com/user-attachments/assets/ea6c7fd9-dbb1-4c06-8f3b-34e22ba085c0
 
+  <br><br> <h3> Bluetooth Wifi Kamera Uygulaması</h3>
+
+  https://github.com/user-attachments/assets/6c1e1a06-5647-417d-8a1e-920d8292f5b1
+
 </div>
