@@ -20,4 +20,8 @@
 
   https://github.com/user-attachments/assets/6c1e1a06-5647-417d-8a1e-920d8292f5b1
 
+  <br><br> <h3> Sensor Uygulaması</h3>
+
+  https://github.com/user-attachments/assets/1b463e80-5cb3-4404-90db-acd0486c82ef
+
 </div>
