@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/headerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Sensörler"
+        android:textColor="@color/text_main"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/headerTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="40dp">
+
+            <Button android:id="@+id/sensor1_button" style="@style/SensorButton" android:text="İvmeölçer" />
+            <Button android:id="@+id/sensor2_button" style="@style/SensorButton" android:text="Pusula" />
+            <Button android:id="@+id/sensor3_button" style="@style/SensorButton" android:text="Jiroskop" />
+            <Button android:id="@+id/sensor4_button" style="@style/SensorButton" android:text="Nem" />
+            <Button android:id="@+id/sensor5_button" style="@style/SensorButton" android:text="Işık" />
+            <Button android:id="@+id/sensor6_button" style="@style/SensorButton" android:text="Manyetometre" />
+            <Button android:id="@+id/sensor7_button" style="@style/SensorButton" android:text="Basınç" />
+            <Button android:id="@+id/sensor8_button" style="@style/SensorButton" android:text="Yakınlık" />
+            <Button android:id="@+id/sensor9_button" style="@style/SensorButton" android:text="Termometre" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
