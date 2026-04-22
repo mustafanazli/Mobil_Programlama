@@ -36,10 +36,8 @@ public class BluetoothActivity extends AppCompatActivity {
         btnListele = findViewById(R.id.btnListele);
         cihazListesi = findViewById(R.id.cihazListesi);
 
-        // Android 12 (API 31) ve sonrası için Güvenlik/İzin Kontrolü (ÇÖKMEYİ ÖNLER)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
-                // Kullanıcıdan ekranda onay kutusu ile izin istiyoruz
                 ActivityCompat.requestPermissions(this, new String[]{
                         Manifest.permission.BLUETOOTH_CONNECT,
                         Manifest.permission.BLUETOOTH_SCAN

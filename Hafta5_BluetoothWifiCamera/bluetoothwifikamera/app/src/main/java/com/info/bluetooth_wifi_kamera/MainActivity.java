@@ -15,12 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Arayüzdeki elemanları koda bağlama
         btnBluetooth = findViewById(R.id.btnBluetooth);
         btnWifi = findViewById(R.id.btnWifi);
         btnCamera = findViewById(R.id.btnCamera);
 
-        // Tıklama Olayları (Geçişler)
         btnBluetooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
