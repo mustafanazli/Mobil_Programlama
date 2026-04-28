@@ -28,4 +28,9 @@
 
   https://github.com/user-attachments/assets/8b420815-6b09-4b9c-8388-1fdb9c965395
 
+  <br><br> <h3> Doviz Uygulaması</h3>
+
+  [dovizuygulamasi.webm](https://github.com/user-attachments/assets/bbf36564-ff77-454b-91e8-a20527f7b0d7)
+
+
 </div>
