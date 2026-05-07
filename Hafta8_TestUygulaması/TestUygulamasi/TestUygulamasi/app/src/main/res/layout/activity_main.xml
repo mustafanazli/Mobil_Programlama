@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soru Yönetimi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText android:id="@+id/editSoru" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Soru Metni" android:background="@android:drawable/editbox_background" android:padding="10dp" android:layout_marginBottom="8dp"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <EditText android:id="@+id/editA" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="A" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+        <EditText android:id="@+id/editB" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="B" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <EditText android:id="@+id/editC" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="C" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+        <EditText android:id="@+id/editD" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="D" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <EditText android:id="@+id/editE" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="E" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+        <EditText android:id="@+id/editDogru" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:hint="Doğru (A..E)" android:background="@android:drawable/editbox_background" android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginTop="10dp">
+        <Button android:id="@+id/btnEkle" android:layout_width="0dp" android:layout_height="wrap_content" android:text="EKLE" android:layout_weight="1" android:backgroundTint="@color/primary"/>
+        <Button android:id="@+id/btnGuncelle" android:layout_width="0dp" android:layout_height="wrap_content" android:text="GÜNCELLE" android:layout_weight="1" android:layout_marginHorizontal="4dp" android:backgroundTint="@color/primary"/>
+        <Button android:id="@+id/btnSil" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SİL" android:layout_weight="1" android:backgroundTint="@color/error"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewSorular"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="12dp"
+        android:divider="@color/gray_light"
+        android:dividerHeight="1dp"
+        android:background="@color/white" />
+
+    <Button
+        android:id="@+id/btnSinavaBasla"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="SINAVA BAŞLA"
+        android:backgroundTint="@color/accent"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

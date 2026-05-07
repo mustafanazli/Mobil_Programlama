@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvSoru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSecenekler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/rbA" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbB" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbC" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbD" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"/>
+        <RadioButton android:id="@+id/rbE" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="10dp"/>
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnCevapla"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="CEVAPLA"
+        android:backgroundTint="@color/primary"/>
+
+</LinearLayout>
