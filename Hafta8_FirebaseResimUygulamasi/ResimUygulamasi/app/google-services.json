@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "914016789095",
+    "project_id": "resimuygulamasi",
+    "storage_bucket": "resimuygulamasi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914016789095:android:7662b1febc0af1fec9eac2",
+        "android_client_info": {
+          "package_name": "com.info.resimuygulamasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs5Gtox8IYHWxeUjzlcL_uzKoah99qNms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
